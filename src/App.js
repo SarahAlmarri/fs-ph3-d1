@@ -1,5 +1,4 @@
 import "./App.css";
-import { Card } from "./Card";
 import onlineStore from "./mobile-shopping.png";
 
 function App(props) {
