@@ -1,14 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Card } from "./Card";
+import onlineStore from "./mobile-shopping.png";
 
-function App() {
+function App(props) {
   return (
-    <div>
-      <h1>Hello</h1>
-      <Card title="card1"></Card>
-      <Card title="card2"></Card>
-      <Card title="card2"></Card>
+    <div className="center">
+      <img src={onlineStore} width="10%" />
+      <h1>{props.title} </h1>
+      <p>welcome to {props.title}</p>
     </div>
   );
 }
